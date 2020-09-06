@@ -1,0 +1,7 @@
+type=command
+dependencies=rbase_bpms,rbase_entit_platform,rbase_guaranty-apps,rbase_guaranty-bims,rbase_rct
+command=echo "this is finish.job"
+retries=12
+retry.backoff=150000
+successEmail=wangwei@ddjf.com.cn
+failureEmail=wangwei@ddjf.com.cn

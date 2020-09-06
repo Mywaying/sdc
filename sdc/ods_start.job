@@ -1,0 +1,4 @@
+type=command
+command=sh /root/dwsys/ods/bin/sh/ODS_BEGIN_PROCESS.sh
+retries=12
+retry.backoff=150000

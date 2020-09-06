@@ -1,0 +1,5 @@
+type=command
+dependencies=rct
+command=sh ../../batch_trans.sh ./scripts/icrGuaranteeSummary.sql
+retries=12
+retry.backoff=300000

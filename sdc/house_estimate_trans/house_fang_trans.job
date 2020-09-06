@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start,house
+command=sh ../../batch_order.sh ./script/house_detail_fang.sql
+retries=12
+retry.backoff=150000

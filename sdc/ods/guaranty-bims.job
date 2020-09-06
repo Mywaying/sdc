@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./StartToProcessODS_ex_mutile.sh ./guaranty-bims.cfg ods bimshive_bpms
+retries=12
+retry.backoff=300000

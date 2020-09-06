@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./StartToProcessODS_ex_mutile.sh ./report.cfg ods mysql2hive_report
+retries=12
+retry.backoff=300000

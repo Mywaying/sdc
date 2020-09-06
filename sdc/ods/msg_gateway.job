@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./StartToProcessODS_ex_mutile.sh ./msg_gateway.cfg ods mysql2hive_msg
+retries=12
+retry.backoff=300000

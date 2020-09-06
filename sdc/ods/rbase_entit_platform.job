@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./rbase.sh ./entit_platform.cfg 2017-01-01
+retries=12
+retry.backoff=300000

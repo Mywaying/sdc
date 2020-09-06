@@ -1,0 +1,5 @@
+type=command
+dependencies=mater_records_trans_1,sys_dict_trans,check_option_trans
+command=sh ../../batch_trans.sh ./script/mater_records_trans.sql
+retries=12
+retry.backoff=150000

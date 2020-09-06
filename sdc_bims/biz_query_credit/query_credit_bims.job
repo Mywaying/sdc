@@ -1,0 +1,3 @@
+type=command
+dependencies=ods_start,guaranty-bims,guaranty-apps,sys_dict_bims_trans
+command=sh ../../batch_trans.sh ./script/biz_query_credit.sql

@@ -1,0 +1,5 @@
+type=command
+dependencies=bpms_flow,sys_dict_trans
+command=sh ../../batch_trans.sh ./script/biz_hit_rule.sql
+retries=12
+retry.backoff=150000

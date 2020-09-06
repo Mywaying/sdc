@@ -1,0 +1,4 @@
+type=command
+command=sh ./StartToProcessODS_ex_mutile.sh ./bpms_flow_parquet.cfg ods mysql2hive_bpms_ex
+retries=12
+retry.backoff=300000

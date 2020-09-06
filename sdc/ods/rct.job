@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./StartToProcessODS_mongo.sh ./rct.cfg ods mongo2hive_rcs
+retries=12
+retry.backoff=300000

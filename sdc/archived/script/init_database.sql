@@ -1,0 +1,1 @@
+create database if not exists ${hivevar:v_dbname};

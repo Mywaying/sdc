@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start,bpms_flow,check_option_trans_1,check_option_trans_2
+command=sh ../../batch_trans.sh ./script/check_option_trans.sql
+retries=12
+retry.backoff=300000

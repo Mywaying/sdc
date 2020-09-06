@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./archived_bpms.sh ./risk-control.ini
+retries=12
+retry.backoff=150000

@@ -1,0 +1,5 @@
+type=command
+dependencies=bpms_flow
+command=sh ../../batch_trans.sh ../../sdc/write_off_detail_trans/script/biz_write_off_detail.sql
+retries=12
+retry.backoff=300000

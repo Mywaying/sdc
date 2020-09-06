@@ -1,0 +1,5 @@
+type=command
+dependencies=bpms_flow,check_option_trans,tmp_check_option_trans_ex_1,tmp_check_option_trans_ex_2,tmp_check_option_trans_ex_3,sys_dict_trans,order_flow_trans,mater_records_trans,tmp_check_option_trans_ex_1,tmp_check_option_trans_ex_2,tmp_check_option_trans_ex_3
+command=sh ../../batch_trans.sh ./script/check_option_trans_ex.sql
+retries=12
+retry.backoff=300000

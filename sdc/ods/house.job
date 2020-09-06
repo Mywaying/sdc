@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./StartToProcessODS_mongo.sh ./house.cfg ods mongo2hive_house
+retries=12
+retry.backoff=300000

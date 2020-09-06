@@ -1,0 +1,5 @@
+type=command
+dependencies=entit_platform,risk-control,msg_gateway,wechat_mini,ding
+command=sh ./StartToProcessODS_ex_mutile.sh ./bpms_flow.cfg ods mysql2hive_bpms
+retries=12
+retry.backoff=300000

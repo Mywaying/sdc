@@ -1,0 +1,5 @@
+type=command
+dependencies=bpms_flow,orders_trans,sys_dict_trans,mater_records_trans
+command=sh ../../batch_trans.sh ./script/mater_records_wx_trans.sql
+retries=12
+retry.backoff=150000

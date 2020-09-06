@@ -1,0 +1,5 @@
+type=command
+dependencies=bpms_flow,data_update
+command=sh ../../batch_trans.sh ./script/biz_data_update_product_info.sql
+retries=12
+retry.backoff=300000

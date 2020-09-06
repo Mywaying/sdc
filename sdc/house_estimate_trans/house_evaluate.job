@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start,house_fang_trans
+command=sh ../../batch_trans.sh ./script/house_detail_common.sql
+retries=12
+retry.backoff=150000

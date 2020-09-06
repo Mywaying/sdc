@@ -1,0 +1,5 @@
+type=command
+dependencies=bpms_flow
+command=sh ../../batch_trans.sh ../../sdc/biz_apply_order_extend_trans/script/biz_apply_order_extend.sql
+retries=12
+retry.backoff=300000

@@ -1,0 +1,5 @@
+type=command
+dependencies=ods_start
+command=sh ./StartToProcessODS_ex_mutile.sh ./ruleengine.cfg ods mysql2hive_ruleengine
+retries=12
+retry.backoff=300000
